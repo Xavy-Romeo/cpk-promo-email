@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPK - Promo Email</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+
+<title>CPK - Promo Email</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+
 </head>
 <body style="margin: 0;">
     <!-- Start of HTML Email -->
@@ -14,14 +28,16 @@
         <tr>
             <td>
                 <!--Start of Main Container-->
-                <table class='container' width='600px' border='0' align='center' cellspacing='0' cellpadding='0'>
+                <table class='container' width='100%' border='0' align='center' cellspacing='0' cellpadding='0'
+                    style="max-width: 600px !important; margin: 0 auto;" 
+                >
                     <!--Start of Header row-->
                     <tr>
                         <td>
                             <table width="100%" border="0" cellspacing="0" cellpadding="0"
                                 style="
                                     background: #FFDB00;
-                                    padding: 20px;
+                                    padding: 15px;
                                     text-align: center;
                                     color: #000;
                                 "
@@ -31,7 +47,7 @@
                                         <p style="font-size: 14px; margin: 0 0 10px 0;">
                                             Hello, Javy
                                         </p>
-                                        <p style="font-size: 12px; margin: 0">
+                                        <p style="font-size: 12px; margin: 0 0 10px 0;">
                                             Annual Point: 2,974 | Benefits Level: Elite | CPK Rewards Dollar Balance: $15.45
                                         </p>
                                     </td>
@@ -40,6 +56,26 @@
                         </td>
                     </tr>
                     <!--End of Header row-->
+
+                    <!--Start of Content row-->
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                style="
+                                    background: #fff8de;
+                                    padding: 20px 40px;
+                                "
+                            >
+                                <tr>
+                                    <td style="text-align: center;">                                          
+                                        <img src="./src/img/cpk-pizza.jpg" alt="cpk pizza" style="margin-bottom: 25px";/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--End of Content row-->
+
                 </table>
                 <!--End of Main Container-->
             </td>
