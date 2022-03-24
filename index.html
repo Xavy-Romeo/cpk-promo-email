@@ -17,6 +17,23 @@
             padding: 0;
             box-sizing: border-box;
         }
+        /* mobile version */
+        @media only screen and (max-width: 599px) {
+            .footer-links-spacer {
+                width: 5% !important;
+            }
+        }
+        @media only screen and (max-width: 465px) {
+            .mobile-text-9 {
+                font-size: 9px !important;
+            }
+            .footer-link {
+                font-size: 8px !important;
+            }
+            .footer-text {
+                font-size: 10px !important;
+            }
+        }
     </style>
 
 </head>
@@ -47,7 +64,7 @@
                                         <p style="font-size: 14px; margin: 0 0 10px 0;">
                                             Hello, Javy
                                         </p>
-                                        <p style="font-size: 12px; margin: 0 0 10px 0;">
+                                        <p class="mobile-text-9" style="font-size: 12px; margin: 0 0 10px 0;">
                                             Annual Point: 2,974 | Benefits Level: Elite | CPK Rewards Dollar Balance: $15.45
                                         </p>
                                     </td>
@@ -67,7 +84,13 @@
                             >
                                 <tr>
                                     <td style="text-align: center;">                                          
-                                        <img src="./src/img/cpk-pizza.jpg" alt="cpk pizza" width="600px" style="margin-bottom: 25px";/>
+                                        <img src="./src/img/cpk-pizza.jpg" alt="cpk pizza" 
+                                            style="
+                                                margin-bottom: 25px;
+                                                width: 100%;
+                                                max-width: 600px;
+                                            "
+                                        />
                                     </td>
                                 </tr>
                             </table>
@@ -110,9 +133,9 @@
                                     <td>
                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr style="text-align: center;">
-                                                <td style="width: 20%"></td>
+                                                <td class="footer-links-spacer" style="width: 15%"></td>
                                                 <td>
-                                                    <a href='https://www.cpk.com/' target="_blank"
+                                                    <a href='https://www.cpk.com/' class="footer-link" target="_blank"
                                                         style="
                                                             font-family: Helvetica, Arial, sans-serif;
                                                             font-size: .7rem;
@@ -127,7 +150,7 @@
                                                 </td>
                                                 <td>|</td>
                                                 <td>
-                                                    <a href='https://www.cpk.com/' target="_blank"
+                                                    <a href='https://www.cpk.com/' class="footer-link" target="_blank"
                                                         style="
                                                             font-family: Helvetica, Arial, sans-serif;
                                                             font-size: .7rem;
@@ -143,7 +166,7 @@
                                                 </td>
                                                 <td>|</td>
                                                 <td>
-                                                    <a href='https://www.cpk.com/' target="_blank"
+                                                    <a href='https://www.cpk.com/' class="footer-link" target="_blank"
                                                         style="
                                                             font-family: Helvetica, Arial, sans-serif;
                                                             font-size: .7rem;
@@ -158,7 +181,7 @@
                                                 </td>
                                                 <td>|</td>
                                                 <td>
-                                                    <a href='https://www.cpk.com/' target="_blank"
+                                                    <a href='https://www.cpk.com/' class="footer-link" target="_blank"
                                                         style="
                                                             font-family: Helvetica, Arial, sans-serif;
                                                             font-size: .7rem;
@@ -173,7 +196,7 @@
                                                 </td>
                                                 <td>|</td>
                                                 <td>
-                                                    <a href='https://www.cpk.com/' target="_blank"
+                                                    <a href='https://www.cpk.com/' class="footer-link" target="_blank"
                                                         style="
                                                             font-family: Helvetica, Arial, sans-serif;
                                                             font-size: .7rem;
@@ -186,20 +209,21 @@
                                                         Privacy Policy
                                                     </a> 
                                                 </td>
-                                                <td style="width: 20%"></td>
+                                                <td class="footer-links-spacer" style="width: 15%"></td>
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
                                 <tr style="text-align: center;">
                                     <td>
-                                        <p
+                                        <p class="mobile-text-9"
                                             style="
                                                 font-size: 10px;
                                                 font-family: Arial,Helvetica,sans-serif;
                                                 color: #04ccb1;
                                                 font-weight: bold;
                                                 margin: 20px 0;
+                                                padding: 0 20px;
                                             "   
                                         >
                                             Victoria Gardens | 12517 North Mainstreet | Rancho Cucamonga  CA  91739 | (909) 899 - 8611
@@ -208,7 +232,7 @@
                                 </tr>
                                 <tr style="text-align: center;">
                                     <td>
-                                        <p
+                                        <p class="footer-text"
                                             style="
                                                 font-family: Helvetica, Arial, sans-serif;
                                                 color: #65625d;
@@ -219,7 +243,7 @@
                                         >
                                             This email was sent because you joined the CPK Reward program.
                                         </p>
-                                        <p
+                                        <p class="footer-text"
                                             style="
                                                 font-family: Helvetica, Arial, sans-serif;
                                                 color: #65625d;
@@ -231,9 +255,9 @@
                                         </p>
                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr style="text-align: center;">
-                                                <td style="width: 25%;"></td>
+                                                <td class="footer-links-spacer" style="width: 25%;"></td>
                                                 <td style="text-align: right;">
-                                                    <a href="https://www.cpk.com/" target="_blank"
+                                                    <a href="https://www.cpk.com/" class="footer-links-spacer" target="_blank"
                                                     style="
                                                         font-family: Helvetica, Arial, sans-serif;
                                                         color: #a9adb5;
@@ -265,10 +289,10 @@
                                                         Click here to view our privacy policy
                                                     </a>
                                                 </td>
-                                                <td style="width: 25%"></td>
+                                                <td class="footer-links-spacer" style="width: 25%"></td>
                                             </tr>
                                         </table>
-                                        <p
+                                        <p class="footer-text"
                                             style="
                                                 font-family: Helvetica, Arial, sans-serif;
                                                 color: #65625d;
@@ -279,12 +303,13 @@
                                         >
                                             Copyright 2022 California Pizza Kitchen, Inc. All rights reserved.
                                         </p>
-                                        <p
+                                        <p class="footer-text"
                                             style="
                                                 font-family: Helvetica, Arial, sans-serif;
                                                 color: #a9adb5;
                                                 font-size: 12px;
                                                 margin: 20px 0;
+                                                padding: 0 20px;
                                             "
                                         >
                                             *Offer valid for $10 off on your next food and non-alcoholic beverage purchase of $40 or more from 03/09/22 - 03/15/22. This reward was automatically added to your CPK Rewards account on 03/09/22. Offer valid at participating locations; not valid at locations in Guam, airports, stadiums, Grand Sierra Resort in Reno, the Mirage Hotel in Las Vegas or international locations. Offer redeemable with select offers and promotions. One time use only. No cash value. Valid for takeout and CPK delivery. Not valid on third party delivery. Not valid on alcohol, tax, gratuity, retail or gift card purchases. Limit one offer per order, per visit. Offer expires 03/15/22.
